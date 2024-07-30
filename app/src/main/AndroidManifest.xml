@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.retrotech.machies_hogl">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.POST_NOTIFICATIONS"
+        tools:node="remove" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/we_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/we_logo"
+        android:supportsRtl="true"
+        android:theme="@style/MyTheme">
+        <activity
+            android:name="com.retrotech.machies_hogl.FacilitatorRegisterActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.ViewSocialFundFacilitatorActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.ViewFinesFacilitatorActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.BookWriterLoanRepaymentEdit"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.ConstitutionBookWriterActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.ViewRepaymentFacilitatorActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.ViewLoanFacilitatorActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.OrdinaryMemberGroupLoanRepaymentsActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.OrdinaryMemberLoanRepaymentsActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.BookWriterGroupLoanRepaymentActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.OrdinaryMemberMyGroupLoanActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.OrdinaryMemberMyLoanActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.FacilitatorProfileActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.ViewGroupSavingsFacilitatorActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.MemberProfileActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.ViewTotalFineOrdinaryMemberActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.ViewTotalFineBookWriterActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.OrdinaryTotalSocialFundsCollectedActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.OrdinaryViewSocialFundsForMembersActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.OrdinaryMemberSocialFundDashboard"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.SocialFundDisbursementActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.OrdinaryMemberViewRegister"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.TotalSocialFundsCollectedActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.ViewSocialFundsForMembersActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.BookWriterViewRegister"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.BookWriterConductRegisterActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.BookWriterViewMemberRegisterActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.FacilitatorMemberDetailsActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.ProfileActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.OrdinaryMemberFinesDashboard"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.OrdinaryMemberRepaymentDashboard"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.OrdinaryMemberLoanRequestDashboard"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.OrdinaryGroupTransactionHistoryActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.OrdinaryMemberTransactionHistoryActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.OrdinaryMemberSavingsDashboard"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.OrdinaryMembersDetailsActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.OrdinaryMembersActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.BookWriterMemberRegisterDashboard"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.BookWriterSocialDashboard"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.BookWriterFinesDashboard"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.BookWriterRepaymentDashboard"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.BookWriterLoanRequestDashboard"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.retrotech.machies_hogl.ViewActualMembersFacilitator"
+            android:exported="false" />
+        <activity
+            android:name="com.retrotech.machies_hogl.FacilitatorViewGroupsActivity"
+            android:exported="false"
+            android:parentActivityName="com.retrotech.machies_hogl.FacilitatorGroupAdminDashboard" />
+        <activity
+            android:name="com.retrotech.machies_hogl.BookWriterAdminDashboard"
+            android:exported="false" />
+        <activity
+            android:name="com.retrotech.machies_hogl.AddMemberToGroupActivity"
+            android:exported="false"
+            android:parentActivityName="com.retrotech.machies_hogl.FacilitatorGroupAdminDashboard" />
+        <activity
+            android:name="com.retrotech.machies_hogl.FacilitatorGroupAdminDashboard"
+            android:exported="false" />
+        <activity
+            android:name="com.retrotech.machies_hogl.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.retrotech.machies_hogl.LoginActivity" />
+        <activity
+            android:name="com.retrotech.machies_hogl.MainActivity"
+            android:parentActivityName="com.retrotech.machies_hogl.MemberProfileActivity" />
+        <activity android:name="com.retrotech.machies_hogl.MyTransactionsHistoryActivity" />
+        <activity android:name="com.retrotech.machies_hogl.MembersActivity" />
+        <activity android:name="com.retrotech.machies_hogl.MembersDetailsActivity" />
+        <activity android:name="com.retrotech.machies_hogl.NewLoanRequestActivity" />
+        <activity android:name="com.retrotech.machies_hogl.NewMemberActivity" />
+        <activity android:name="com.retrotech.machies_hogl.MyLoanRequestsActivity" />
+        <activity android:name="com.retrotech.machies_hogl.BookWriterMembersActivity" />
+        <activity android:name="com.retrotech.machies_hogl.FacilitatorGroupTransactionsHistoryActivity" />
+        <activity android:name="com.retrotech.machies_hogl.BookWriterLoansActivity" />
+        <activity android:name="com.retrotech.machies_hogl.NewPaymentActivity" />
+        <activity
+            android:name="com.retrotech.machies_hogl.FacilitatorGroupsActivity"
+            android:parentActivityName="com.retrotech.machies_hogl.FacilitatorGroupAdminDashboard" />
+        <activity android:name="com.retrotech.machies_hogl.FacilitatorNewMemberActivity" />
+        <activity
+            android:name="com.retrotech.machies_hogl.FacilitatorNewGroupActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.retrotech.machies_hogl.GroupDetailsActivity" />
+        <activity android:name="com.retrotech.machies_hogl.FacilitatorManageGroupsActivity" />
+        <activity android:name="com.retrotech.machies_hogl.FacilitatorGroupSavings" />
+        <activity android:name="com.retrotech.machies_hogl.FacilitatorGroupLoans" />
+        <activity android:name="com.retrotech.machies_hogl.FacilitatorGroupRepayments" />
+        <activity android:name="com.retrotech.machies_hogl.FacilitatorGroupFines" />
+        <activity android:name="com.retrotech.machies_hogl.FacilitatorMembersFines" />
+        <activity android:name="com.retrotech.machies_hogl.FacilitatorMembersLoans" />
+        <activity android:name="com.retrotech.machies_hogl.FacilitatorMembersRepayments" />
+        <activity android:name="com.retrotech.machies_hogl.BookwriterRepaymentsActivity" />
+        <activity android:name="com.retrotech.machies_hogl.BookWriterSavingsOptionsDashboard" />
+        <activity android:name="com.retrotech.machies_hogl.BookwriterSavingsActivity" />
+        <activity android:name="com.retrotech.machies_hogl.BookwriterFinesActivity" />
+        <activity android:name="com.retrotech.machies_hogl.BookwriterSocialFundActivity" />
+        <activity android:name="com.retrotech.machies_hogl.BookwriterNewMemberActivity" />
+        <activity android:name="com.retrotech.machies_hogl.MyGroupTransactionsHistoryActivity" />
+        <activity android:name="com.retrotech.machies_hogl.NewLoanRepaymentActivity" />
+        <activity android:name="com.retrotech.machies_hogl.ChargeFineActivity" />
+        <activity android:name="com.retrotech.machies_hogl.NewSocialFundActivity" />
+        <activity android:name="com.retrotech.machies_hogl.BookwriterGroupLoansActivity" />
+        <activity android:name="com.retrotech.machies_hogl.FacilitatorGroupLoansActivity" />
+        <activity android:name="com.retrotech.machies_hogl.BookWriterSavingEdit" />
+        <activity android:name="com.retrotech.machies_hogl.PostFineActivity" />
+        <activity android:name="com.retrotech.machies_hogl.SignUpActivity" />
+    </application>
+
+</manifest>

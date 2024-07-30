@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="157dp"
+    xmlns:card_view="http://schemas.android.com/tools"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true"
+    card_view:cardCornerRAdius="5dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/white">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/member_img"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:padding="5dp"
+            android:src="@drawable/ic_user"
+            app:civ_border_color="@color/grey"
+            app:civ_border_width="2dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:layout_marginTop="2dp"
+            android:layout_toEndOf="@+id/member_img"
+            android:layout_toStartOf="@+id/member_status"
+            android:layout_marginBottom="2dp"
+            android:paddingStart="5dp"
+            android:weightSum="0.4">
+            <TextView
+                android:id="@+id/member_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:paddingStart="5dp"
+                android:ellipsize="marquee"
+                android:background="@color/white"
+                android:textStyle="bold"
+                android:gravity="bottom"
+                android:textSize="20sp"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:text="Bluecode" />
+
+
+            <TextView
+                android:id="@+id/member_ID"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="sans-serif-condensed"
+                android:ellipsize="marquee"
+                android:gravity="center_vertical"
+                android:background="@color/white"
+                android:textSize="16sp"
+                android:paddingStart="5dp"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:text="123" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/member_status"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end"
+            android:padding="5dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_user" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

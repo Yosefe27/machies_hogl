@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FacilitatorMemberDetailsActivity">
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Group Member Details"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="17dp" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="11dp"
+                android:background="#F4F4F4"
+                android:scrollbars="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Group Name"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/group_name"
+                        style="@style/modifiedEditText"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/ic_edit_bg"
+                        android:fontFamily="@font/poppins_regular"
+                        android:gravity="center_vertical"
+                        android:hint="Group Name"
+                        android:clickable="false"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPersonName"
+                        android:maxLines="1"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Group ID"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/group_id"
+                        style="@style/modifiedEditText"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/ic_edit_bg"
+                        android:fontFamily="@font/poppins_regular"
+                        android:gravity="center_vertical"
+                        android:hint="Group ID"
+                        android:clickable="false"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPersonName"
+                        android:maxLines="1"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="First Name"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/first_name"
+                        style="@style/modifiedEditText"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/ic_edit_bg"
+                        android:fontFamily="@font/poppins_regular"
+                        android:gravity="center_vertical"
+                        android:hint="First Name"
+                        android:clickable="false"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPersonName"
+                        android:maxLines="1"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Last Name"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/last_name"
+                        style="@style/modifiedEditText"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/ic_edit_bg"
+                        android:fontFamily="@font/poppins_regular"
+                        android:gravity="center_vertical"
+                        android:hint="Last Name"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPersonName"
+                        android:maxLines="1"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Username"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/user_name"
+                        style="@style/modifiedEditText"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/ic_edit_bg"
+                        android:fontFamily="@font/poppins_regular"
+                        android:gravity="center_vertical"
+                        android:hint="Username"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPersonName"
+                        android:maxLines="1"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Password"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/user_password"
+                        style="@style/modifiedEditText"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/ic_edit_bg"
+                        android:fontFamily="@font/poppins_regular"
+                        android:gravity="center_vertical"
+                        android:hint="Password"
+                        android:imeOptions="actionNext"
+                        android:inputType="numberPassword"
+                        android:maxLines="1"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Date Of Admission"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/admission_date"
+                        style="@style/modifiedEditText"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/ic_edit_bg"
+                        android:fontFamily="@font/poppins_regular"
+                        android:gravity="center_vertical"
+                        android:hint="Date Of Admission"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPersonName"
+                        android:maxLines="1"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Gender"
+                        android:textSize="12sp" />
+
+                    <Spinner
+                        android:id="@+id/gender"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/ic_edit_bg_box"
+                        android:dropDownWidth="wrap_content"
+                        android:dropDownSelector="@color/colorBottomCardEnd"
+                        android:entries="@array/gender" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="ECAP II HH ID"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/ecap_hh_id"
+                        style="@style/modifiedEditText"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/ic_edit_bg"
+                        android:fontFamily="@font/poppins_regular"
+                        android:gravity="center_vertical"
+                        android:hint="ECAP II HH ID"
+                        android:imeOptions="actionNext"
+                        android:inputType="phone"
+                        android:maxLines="1"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Phone Number"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/phone_number"
+                        style="@style/modifiedEditText"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/ic_edit_bg"
+                        android:fontFamily="@font/poppins_regular"
+                        android:gravity="center_vertical"
+                        android:hint=""
+                        android:imeOptions="actionNext"
+                        android:inputType="phone"
+                        android:maxLines="1"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Group Member Role"
+                        android:textSize="12sp"
+                        android:id="@+id/txt_user_role"/>
+                    <Spinner
+                        android:id="@+id/user_role"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/ic_edit_bg_box"
+                        android:dropDownWidth="wrap_content"
+                        android:dropDownSelector="@color/colorBottomCardEnd"
+                        android:entries="@array/role_member" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Single Female Caregiver (Y/N)"
+                        android:textSize="12sp" />
+                    <Spinner
+                        android:id="@+id/single_fsw"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/ic_edit_bg_box"
+                        android:dropDownWidth="wrap_content"
+                        android:dropDownSelector="@color/colorBottomCardEnd"
+                        android:entries="@array/binary" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="User ID"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/user_id"
+                        style="@style/modifiedEditText"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/ic_edit_bg"
+                        android:fontFamily="@font/poppins_regular"
+                        android:gravity="center_vertical"
+                        android:hint="User ID"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPersonName"
+                        android:maxLines="1"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp" />
+
+
+                </LinearLayout>
+            </ScrollView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:minHeight="60dp"
+                app:cardBackgroundColor="@color/button"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="20dp">
+
+                <TextView
+                    android:id="@+id/save_member_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Update Member Record"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

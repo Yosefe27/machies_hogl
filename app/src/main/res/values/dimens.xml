@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="login_bottom_margin">15dp</dimen>
+    <dimen name="login_logo_top_padding">0dp</dimen>
+    <dimen name="login_middle_section_padding_top">20dp</dimen>
+    <dimen name="login_horizontal_margin">30dp</dimen>
+    <dimen name="login_view_component_height">40dp</dimen>
+    <dimen name="login_edit_text_textSize">16sp</dimen>
+    <dimen name="checkbox_margin_top">10dp</dimen>
+
+    <dimen name="contact_drawable_padding">10dp</dimen>
+    <dimen name="contact_small_padding">10dp</dimen>
+</resources>

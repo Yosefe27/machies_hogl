@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/icons"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="16dp"
+        android:scaleType="centerInside"
+        android:translationX="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/lightGrey" />
+
+    <LinearLayout
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/icons"
+        android:orientation="vertical"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Repayment Form"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-medium"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please Fill in the following details below"
+            android:textSize="12sp"
+            android:textColor="@color/fab_tint"
+            android:fontFamily="sans-serif"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_bg"
+            android:padding="16dp"
+            android:layout_marginTop="30dp"
+            android:textSize="16sp"
+            android:hint="Loan Number"
+            android:inputType="number"
+            android:drawablePadding="16dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_bg"
+            android:padding="16dp"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"
+            android:hint="Full Names"
+            android:inputType="text"
+            android:drawablePadding="16dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_bg"
+            android:padding="16dp"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"
+            android:hint="Date of Repayment"
+            android:inputType="date"
+            android:drawablePadding="16dp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_bg"
+            android:padding="16dp"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"
+            android:hint="Balance Due"
+            android:inputType="number"
+            android:drawablePadding="16dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_bg"
+            android:padding="16dp"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"
+            android:hint="Amount Paid"
+            android:inputType="number"
+            android:drawablePadding="16dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_bg"
+            android:padding="16dp"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"
+            android:hint="New Balance"
+            android:inputType="number"
+            android:drawablePadding="16dp"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg"
+            android:text="Save"
+            android:textColor="@color/white"
+            android:layout_marginTop="25dp"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

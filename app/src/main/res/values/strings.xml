@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Machies HOGL</string>
+    <string name="welcome">Welcome</string>
+    <string name="sign_up">Click Here To Sign Up Or Login Below.</string>
+    <string-array name="group_management">
+        <item>  </item>
+        <item>Supervised</item>
+        <item>Self-Managed</item>
+        <item>Spontaneous</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="binary">
+        <item>  </item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="role_bkwriter">
+        <item>  </item>
+        <item>BookWriter</item>
+        <item>Ordinary Member</item>
+    </string-array>
+
+    <array name="role_member">
+        <item></item>
+        <item>OrdinaryMember</item>
+
+
+    </array>
+
+    <array name="Register">
+        <item>Present</item>
+        <item>Absent</item>
+
+
+    </array>
+
+</resources>

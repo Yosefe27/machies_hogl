@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FacilitatorNewGroupActivity">
+
+    <TextView
+        android:id="@+id/textviewhello"
+        android:layout_width="366dp"
+        android:layout_height="57dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/container_color2"
+        android:gravity="center"
+        android:text="NEW GROUP FORM"
+        android:textColor="@color/white" />
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textviewhello">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text=""
+                android:textColor="@color/fab_tint"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Name of Group"
+                android:textAlignment="textStart"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="17dp" />
+
+            <EditText
+                android:id="@+id/group_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/edittext_bg"
+                android:drawablePadding="16dp"
+                android:hint="Name of Group"
+                android:inputType="text"
+                android:padding="16dp"
+                android:textSize="13sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Group ID"
+                android:textAlignment="textStart"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="17dp" />
+
+            <EditText
+                android:id="@+id/group_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/edittext_bg"
+                android:drawablePadding="16dp"
+                android:hint="Group ID"
+                android:inputType="text"
+                android:padding="16dp"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Interest Rate"
+                android:textAlignment="textStart"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/interest_rate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/edittext_bg"
+                android:drawablePadding="16dp"
+                android:hint="Interest Rate"
+                android:inputType="text"
+                android:padding="16dp"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Cycle Number"
+                android:textAlignment="textStart"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="17dp" />
+
+            <EditText
+                android:id="@+id/cycle_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/edittext_bg"
+                android:drawablePadding="16dp"
+                android:hint="Cycle Number"
+                android:inputType="number"
+                android:padding="16dp"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Date Of First Training Meeting"
+                android:textAlignment="textStart"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="17dp" />
+            <!--            <DatePicker-->
+            <!--                android:id="@+id/datePicker1"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:datePickerMode="spinner"-->
+            <!--                android:calendarViewShown="false"/>-->
+
+            <TextView
+                android:id="@+id/first_training_meeting_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/edittext_bg"
+                android:drawablePadding="16dp"
+                android:hint="Date of first training meeting (YYYY-MM-DD)"
+                android:padding="16dp"
+                android:textSize="13sp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Date Savings Started"
+                android:textAlignment="textStart"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/date_savings_started"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/edittext_bg"
+                android:drawablePadding="16dp"
+                android:hint="Date savings started (YYYY-MM-DD)"
+                android:padding="16dp"
+                android:textColor="#000"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Savings Re-Invested At Start Of Current Cycle"
+                android:textAlignment="textStart"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="17dp" />
+
+            <EditText
+                android:id="@+id/reinvested_savings_cycle_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/edittext_bg"
+                android:drawablePadding="16dp"
+                android:hint="Savings re-invested at the start of current cycle"
+                android:inputType="text"
+                android:padding="16dp"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Group Management"
+                android:textAlignment="textStart"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="17dp" />
+
+<!--            <Spinner-->
+<!--                android:id="@+id/group_mgt_spinner"-->
+<!--                android:layout_width="200dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_gravity="left"-->
+<!--                android:layout_marginTop="0dp"-->
+<!--                android:layout_marginBottom="15dp"-->
+<!--                android:background="@drawable/edittext_bg"-->
+<!--                android:dropDownWidth="wrap_content"-->
+<!--                android:dropDownSelector="@color/colorBottomCardEnd" />-->
+            <!--            <EditText-->
+<!--                android:id="@+id/group_mgt"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="0dp"-->
+<!--                android:layout_marginBottom="15dp"-->
+<!--                android:background="@drawable/edittext_bg"-->
+<!--                android:drawablePadding="16dp"-->
+<!--                android:hint="Group Management"-->
+<!--                android:inputType="text"-->
+<!--                android:padding="16dp"-->
+<!--                android:textSize="13sp" />-->
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/supervised"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="true"
+                    android:text="Supervised"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/self_managed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="Self-Managed"
+                    android:textSize="20sp"
+                    />
+
+                <RadioButton
+                    android:id="@+id/spontaneous"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="Spontaneous"
+                    android:textSize="20sp"
+                    />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Number Of Registered Members At Start Of Cycle"
+                android:textAlignment="textStart"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="17dp" />
+
+            <EditText
+                android:id="@+id/registered_members_cycle_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/edittext_bg"
+                android:drawablePadding="16dp"
+                android:hint="Number of registered members at the start of the cycle"
+                android:inputType="text"
+                android:padding="16dp"
+                android:textSize="13sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:minHeight="60dp"
+                app:cardBackgroundColor="#C51162"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="20dp">
+
+                <TextView
+                    android:id="@+id/save_group_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Create Group"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
